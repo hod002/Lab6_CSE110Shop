@@ -14,13 +14,15 @@ class ProductItem extends HTMLElement {
     <p class="price"></p>
     <button onclick="alert('Added to Cart!')">Add to Cart</button>
     </li>
+    <style>@import "./styles/styles.css"</style>
     `;
 
-    // Link stylesheet
+    /* Link stylesheet
     const link = document.createElement("link");
     link.setAttribute("rel", "stylesheet");
     link.setAttribute("href", "styles/styles.css");
     shadowRoot.appendChild(link);
+    */
   }
 }
 
