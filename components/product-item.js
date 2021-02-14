@@ -19,7 +19,7 @@ class ProductItem extends HTMLElement {
     // Link stylesheet
     const link = document.createElement("link");
     link.setAttribute("rel", "stylesheet");
-    link.setAttribute("href", "./styles/styles.css");
+    link.setAttribute("href", "styles/styles.css");
     shadowRoot.appendChild(link);
   }
 }
